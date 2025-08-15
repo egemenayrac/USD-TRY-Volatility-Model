@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m pip install --quiet scikit-learn lightgbm imbalanced-learn xgboost)",
+      "Bash(python3 -c \"import sklearn,lightgbm,imblearn,xgboost; print\\('sklearn',sklearn.__version__,'lgbm',lightgbm.__version__,'imblearn',imblearn.__version__,'xgb',xgboost.__version__\\)\")"
+    ]
+  }
+}
